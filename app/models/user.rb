@@ -4,11 +4,15 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
+  geocoded_by :address
+  after_validation :geocode, if: :will_save_change_to_address?
+
   enum status: { picker: 1, owner: 2 }
   validates :status, presence: true
   validates :name, presence: true
   validates :age, presence: true
   validates :gender, presence: true
+
 #  validates :photo, allow_blank:false
 #  validates :position,
 
