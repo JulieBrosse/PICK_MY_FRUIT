@@ -1,0 +1,2 @@
+class Planting < ApplicationRecord
+end
