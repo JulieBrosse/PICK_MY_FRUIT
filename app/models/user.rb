@@ -10,7 +10,7 @@ class User < ApplicationRecord
   validates :name, presence: true
   validates :age, presence: true
   validates :gender, presence: true
-  geocoded_by :address
+ # geocoded_by :address
   after_validation :geocode, if: :will_save_change_to_address?
 
 
