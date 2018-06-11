@@ -1,15 +1,14 @@
 class UsersController < ApplicationController
+
   def index
   end
 
   def show
-
-  end
-
-  def new
   end
 
   def create
+    @user = User.new(user_params)
+    @user.save
   end
 
   def edit
@@ -20,4 +19,13 @@ class UsersController < ApplicationController
 
   def destroy
   end
+
+
+  private
+
+  def user_params
+    params.require(:user).permit(:name)
+  end
+
+
 end
