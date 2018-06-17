@@ -19,6 +19,6 @@ class User < ApplicationRecord
 #  validates :position,
 
   has_many :orders
-  has_many :plantings, foreign_key: "owner_id"
+#  has_many :plantings, foreign_key: "owner_id"
 
 end

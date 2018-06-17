@@ -170,3 +170,42 @@ users = [
   }
 ]
 
+users.each do |user|
+  new_user =  User.new(user)
+  new_user.save
+end
+
+plantings = [
+  {
+    name: 'orange',
+    category: 'agrume',
+    price: 2,
+    price_kind:'kilo',
+    description: "cool",
+    address: "10 avenue d'Eysines, Bordeaux",
+    photo: "",
+  },
+  {
+    name: 'pomme',
+    category: 'dont know',
+    price: 1,
+    price_kind: 'kilo',
+    description: "super",
+    address: '25 rue Brizard, Bordeaux',
+    photo: "",
+  },
+  {
+    name: "pineapple",
+    category: 'youpi',
+    price: 5,
+    price_kind: 'piece',
+    description: 'miam',
+    address: '22 rue Boyer, Bordeaux',
+    photo: "",
+  }
+]
+
+plantings.each do |planting|
+  new_planting =  Planting.new(planting)
+  new_planting.save
+end
