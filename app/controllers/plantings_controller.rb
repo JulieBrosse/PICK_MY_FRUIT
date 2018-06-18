@@ -1,21 +1,31 @@
 class PlantingsController < ApplicationController
+
+  def new
+    @owner = Owner.find(params[:user_id])
+    @planting = Planting.new
+  end
+
   def create
-    @planting = Planting.new(planting_params)
-    @fruit.owner = current_user
-    if fruit.save
+  @planting = Planting.new(planting_params)
+  @planting.owner = User.find(params[:user_id])
+    if @planting.save
       redirect_to plantings_path
     else
       render :new
-    end
-  end
-
-  def new
+     end
   end
 
   def index
+    @plantings = Planting.all
   end
 
   def show
+    @planting = Planting.find(params[:id])
+  end
+
+  def destroy
+    @planting = Planting.find(params[:id])
+    @planting.destroy
   end
 
   private

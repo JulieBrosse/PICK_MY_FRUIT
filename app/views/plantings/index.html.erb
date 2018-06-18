@@ -1,0 +1,9 @@
+<h1>Choose and pick the fruits!</h1>
+<ul class="list-inline">
+  <% @plantings.each do |planting| %>
+    <li>
+      <p><%= planting.name%></p>
+      <p><%="#{planting.price} / #{planting.price_kind}"%></p>
+    </li>
+  <% end %>
+</ul>
