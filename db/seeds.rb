@@ -11,7 +11,7 @@ users = [
     password: 'azerty',
     address: "10 avenue d'Eysines, Bordeaux",
     photo: "https://www.atpworldtour.com/en/news/www.atpworldtour.com/-/media/images/news/2017/08/04/21/36/federer-montreal-preview-2017.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
   {
     name:         'Jonathan',
@@ -22,29 +22,29 @@ users = [
     password: 'azerty',
     address: '25 rue Brizard, Bordeaux',
     photo: "https://images.beinsports.com/sIeysGac4Hgd3PLPgcYKC4BHykU=/full-fit-in/1000x0/rafael-nadal-cropped_wmzfnt73xdyc1vrwfvhjlm29a.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
   {
-    name:         'Lynn',
+    name:         'Mathilde',
     status:       1,
     gender:       'Female',
     age:           22,
-    email: 'lynn@gmail.com',
+    email: 'mathilde@gmail.com',
     password: 'azerty',
     address: '22 rue Boyer, Bordeaux',
     photo: "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/09/18/104716179-GettyImages-479674638.1910x1000.jpg",
-    description: "J'aime la nature."
+#    description: "J'aime la nature."
   },
   {
     name:         'Marie',
-    ranking:       1,
+    status:       1,
     gender:       'Female',
     age:           40,
     email: 'marie@gmail.com',
     password: 'azerty',
     address: '17 rue Berruer, Bordeaux',
     photo: "https://media.self.com/photos/5a68bdb10628db309dc0fce1/4:3/w_728,c_limit/serena-williams-return-to-tennis-after-giving-birth.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
 
   {
@@ -56,7 +56,7 @@ users = [
     password: 'azerty',
     address: 'Rue du Tondu, Bordeaux',
     photo: "http://cdn1.thecomeback.com/wp-content/uploads/sites/94/2016/09/506208430.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
   {
     name:         'Adrien',
@@ -67,7 +67,7 @@ users = [
     password: 'azerty',
     address: '1 rue Neuve, Bordeaux',
     photo: "http://www.atpworldtour.com/en/news/www.atpworldtour.com/-/media/images/news/2017/01/23/05/09/goffin-australian-open-2017-monday.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
     {
     name:         'Hugo',
@@ -78,7 +78,7 @@ users = [
     password: 'azerty',
     address: '17 rue Berruer, Bordeaux',
     photo: "http://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1463597894/051816-tennis-players-update-4.jpg?itok=XVj3bhvX",
-    description: "J'aime la nature.",
+ #   description: "J'aime la nature.",
   },
     {
     name:         'Mathieu',
@@ -89,7 +89,7 @@ users = [
     password: 'azerty',
     address: '2 rue Latour, Bordeaux',
     photo: "http://www.tennisworldusa.org/imgb/52987/what-kind-of-stan-wawrinka-can-we-expect-to-see-when-he-returns.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
     {
     name:         'Julie',
@@ -100,7 +100,7 @@ users = [
     password: 'azerty',
     address: '11 rue Judaique, Bordeaux',
     photo: "https://medias.lequipe.fr/img-photo-jpg/indian-wells-ca-march-14-kristina-mladenovic-of-france-celebrates-a-game-in-her-match-against-la/1500000000796097/86:70,1630:1098-624-416-75/b26f1.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
     {
     name:         'Margot',
@@ -111,7 +111,7 @@ users = [
     password: 'azerty',
     address: '22 cours Portal, Bordeaux',
     photo: "https://files.newsnetz.ch/story/1/6/5/16521815/7/topelement.jpg",
-    description: "J'aime la nature.",
+ #   description: "J'aime la nature.",
   },
     {
     name:         'Paul',
@@ -122,7 +122,7 @@ users = [
     password: 'azerty',
     address: '30 rue Poyenne, Bordeaux',
     photo: "http://s1.lprs1.fr/images/2017/06/03/7013727_000-p81au_1000x625.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
   {
     name:         'Valentine',
@@ -133,7 +133,7 @@ users = [
     password: 'azerty',
     address: '11 rue Vauban, Bordeaux',
     photo: "http://www.wtatennis.com/sites/default/files/styles/highlight_news_mobile_1_33_1_2x/public/field/image/gettyimages-812664396.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
     {
     name:         'Léa',
@@ -144,7 +144,7 @@ users = [
     password: 'azerty',
     address: '17 rue Marceau, Bordeaux',
     photo: "https://www.telegraph.co.uk/content/dam/tennis/2018/01/27/TELEMMGLPICT000152540274_trans_NvBQzQNjv4BqtA9hvt4yaDuJhaJG2frTId3-Eu0rObiqj2PaX4NGgi0.jpeg?imwidth=480",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
     {
     name:         'Paul',
@@ -155,7 +155,7 @@ users = [
     password: 'azerty',
     address: '6 rue Paulin, Bordeaux',
     photo: "http://www.tennisviewmag.com/sites/default/files/Alexander%2BZverev%2BMutua%2BMadrid%2BOpen%2BDay%2BFour%2B7rSWuxmreA4x.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   },
     {
     name:         'Jean',
@@ -166,7 +166,7 @@ users = [
     password: 'azerty',
     address: '3 rue Hoche, Bordeaux',
     photo: "http://images.indianexpress.com/2017/06/monfils-m.jpg",
-    description: "J'aime la nature.",
+#    description: "J'aime la nature.",
   }
 ]
 
@@ -202,7 +202,7 @@ plantings = [
     description: 'miam',
     address: '22 rue Boyer, Bordeaux',
     photo: "",
-  }
+  },
 ]
 
 plantings.each do |planting|
