@@ -1,7 +1,6 @@
 class PlantingsController < ApplicationController
 
   def new
-    @owner = Owner.find(params[:user_id])
     @planting = Planting.new
   end
 
