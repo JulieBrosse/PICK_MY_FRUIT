@@ -6,7 +6,7 @@ class PlantingsController < ApplicationController
 
   def create
   @planting = Planting.new(planting_params)
-  @planting.owner = User.find(params[:user_id])
+  owner = current_user
     if @planting.save
       redirect_to plantings_path
     else
@@ -19,7 +19,7 @@ class PlantingsController < ApplicationController
   end
 
   def show
-    @planting = Planting.find(params[:id])
+    @planting =Planting.find(params[:id])
   end
 
   def destroy
