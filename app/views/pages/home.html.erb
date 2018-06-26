@@ -4,15 +4,15 @@
     <div class="home-title">
       <h1>PICK MY FRUITS</h1>
     </div>
-
       <p class="home-subtitle">Imagine your city as the biggest garden ever...</p>
       <p class="home-subtitle">What would you do?</p>
       <p class="btn first-choice-button">Go for picking!</p>
       <div>
-      <%= link_to 'watch all my plantings', plantings_path.where(planting: current_user.planting) %> </p>
-      <%= link_to 'Share a new planting', new_planting_path %> </p>
+        <%= link_to 'watch all my plantings', plantings_path %>
       </div>
-
+      <div>
+        <%= link_to 'Share a new planting', new_planting_path %> </p>
+      </div>
   </div>
 </div>
 

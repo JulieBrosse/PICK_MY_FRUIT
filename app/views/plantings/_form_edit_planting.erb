@@ -1,0 +1,10 @@
+  <%= form_for(@planting) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :category %>
+    <%= f.input :price %>
+    <%= f.input :price_kind %>
+    <%= f.input :description %>
+    <%= f.input :address %>
+    <%= f.input :photo %>
+    <%= f.submit "Update", class: "btn btn-success" %>
+  <% end %>
