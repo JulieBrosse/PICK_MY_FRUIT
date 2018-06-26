@@ -9,7 +9,8 @@
       <p class="home-subtitle">What would you do?</p>
       <p class="btn first-choice-button">Go for picking!</p>
       <div>
-        <p class="btn second-choice-button">Look for pickers</p>
+      <%= link_to 'watch all my plantings', plantings_path.where(planting: current_user.planting) %> </p>
+      <%= link_to 'Share a new planting', new_planting_path %> </p>
       </div>
 
   </div>

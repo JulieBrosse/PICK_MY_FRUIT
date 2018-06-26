@@ -10,17 +10,13 @@
     <% if user_signed_in? %>
 
       <!-- Links when logged in -->
-      <%= link_to "Host", "#", class: "navbar-fruit-item navbar-fruit-link" %>
-      <%= link_to "Trips", "#", class: "navbar-fruit-item navbar-fruit-link" %>
-      <%= link_to "Messages", "#", class: "navbar-fruit-item navbar-fruit-link" %>
-
       <!-- Avatar with dropdown menu -->
       <div class="navbar-fruit-item">
         <div class="dropdown">
-          <%= image_tag "http://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbar-fruit-menu", "data-toggle" => "dropdown" %>
+          <%= image_tag "https://m.media-amazon.com/images/M/MV5BMDFmNDg5YzYtZjM3Ny00MjY3LThlYjctNTJlMTJmYWFhMzBkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjk4NTU4NTI@._V1_.jpg", class: "avatar dropdown-toggle", id: "navbar-fruit-menu", "data-toggle" => "dropdown" %>
           <ul class="dropdown-menu dropdown-menu-right navbar-fruit-dropdown-menu">
             <li>
-              <%= link_to "#" do %>
+              <%= link_to "user." do %>
                 <i class="fa fa-user"></i> <%= t(".profile", default: "Profile") %>
               <% end %>
             </li>
