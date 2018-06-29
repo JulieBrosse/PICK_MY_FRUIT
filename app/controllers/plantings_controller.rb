@@ -22,6 +22,16 @@ class PlantingsController < ApplicationController
     @planting =Planting.find(params[:id])
   end
 
+  def edit
+    @planting = Planting.find(params[:id])
+  end
+
+  def update
+    @planting = Planting.find(params[:id])
+    @planting.update(planting_params)
+    redirect_to plantings_path
+  end
+
   def destroy
     @planting = Planting.find(params[:id])
     @planting.destroy
