@@ -1,9 +1,9 @@
 <h1>Choose and pick the fruits!</h1>
 <ul class="list-inline">
   <% @plantings.each do |planting| %>
-    <li>
-      <p><%= planting.name %></p>
+    <% if current_user == planting.user %>
+      <%= link_to planting.name, planting_path(planting), class: "conv-link" %>
       <p><%="#{planting.price} / #{planting.price_kind}"%></p>
-    </li>
+    <% end %>
   <% end %>
 </ul>

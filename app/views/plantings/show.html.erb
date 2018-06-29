@@ -1,0 +1,11 @@
+<p><%= @planting.photo %></p>
+<%=link_to "", edit_planting_path(@planting), class: "fas fa-edit" %>
+<p>Planting: <%= @planting.name %></p>
+<p>Category: <%= @planting.category %></p>
+<p>Price: <%= "#{@planting.price}€ / #{@planting.price_kind}" %></p>
+<p>Description: <%= @planting.description %></p>
+<p>Address: <%= @planting.address %></p>
+<p>Last update: <%= @planting.updated_at %></p>
+
+
+
